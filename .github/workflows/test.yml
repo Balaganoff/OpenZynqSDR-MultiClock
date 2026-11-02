@@ -1,7 +1,7 @@
-name: tests
+name: Clock arithmetic tests
 on: [push, pull_request]
 jobs:
-  check:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -9,3 +9,4 @@ jobs:
         with:
           python-version: '3.11'
       - run: python3 -m unittest discover -s tests -v
+      - run: python3 boot/select_clock.py --config config/sdr-clock.ini
