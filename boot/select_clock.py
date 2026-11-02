@@ -4,6 +4,8 @@ import argparse
 import configparser
 import json
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from clocking.plan import make_plan
 
 def load_plan(path: Path):
