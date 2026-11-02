@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "profiles": {
+    "40000000": {
+      "bitstream": "fpga/adc_40mhz.bit.bin",
+      "cic1": 238,
+      "cic2": 14,
+      "verified": false
+    },
+    "50000000": {
+      "bitstream": "fpga/adc_50mhz.bit.bin",
+      "cic1": null,
+      "cic2": null,
+      "verified": false
+    },
+    "54000000": {
+      "bitstream": "fpga/adc_54mhz.bit.bin",
+      "cic1": null,
+      "cic2": null,
+      "verified": false
+    },
+    "61440000": {
+      "bitstream": "fpga/adc_6144mhz.bit.bin",
+      "cic1": null,
+      "cic2": null,
+      "verified": false
+    }
+  }
+}

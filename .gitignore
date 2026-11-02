@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.bit
+*.bit.bin
+*.img
+*.img.xz
+build/
